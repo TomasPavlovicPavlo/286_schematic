@@ -10607,6 +10607,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:2SC1815"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2SC1815"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Low Noise Audio NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2SC1815_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2SC1815_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_mine_d:286_U5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -15288,7 +15493,7 @@
 		)
 		(uuid "022d76f9-2696-46b5-9c6d-d9250d70d8db")
 	)
-	(label "u5-19"
+	(label "D4"
 		(at 278.13 99.06 180)
 		(effects
 			(font
@@ -15308,7 +15513,7 @@
 		)
 		(uuid "02bfdf25-356b-43c6-b85a-8451e05f0f5b")
 	)
-	(label "u5-18"
+	(label "D5"
 		(at 278.13 96.52 180)
 		(effects
 			(font
@@ -15409,7 +15614,7 @@
 		(uuid "0b57100d-31dd-49dd-9ce9-786d90e828e8")
 	)
 	(label "j12-memr"
-		(at 83.82 114.3 270)
+		(at 110.49 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15418,7 +15623,7 @@
 		)
 		(uuid "0cc57f27-1c97-4d0e-bda7-dccb9623c671")
 	)
-	(label "u5-22"
+	(label "D1"
 		(at 298.45 99.06 0)
 		(effects
 			(font
@@ -15428,7 +15633,7 @@
 		)
 		(uuid "0d157495-30db-43e4-93b5-20d48fb1479c")
 	)
-	(label "A11"
+	(label "A13"
 		(at 295.91 294.64 0)
 		(effects
 			(font
@@ -15528,7 +15733,7 @@
 		)
 		(uuid "1659aab5-89f7-497b-99b5-1c71f4a77553")
 	)
-	(label "u5-36"
+	(label "~{PEACK}"
 		(at 298.45 63.5 0)
 		(effects
 			(font
@@ -15588,7 +15793,7 @@
 		)
 		(uuid "1a30bd70-2435-4a82-9de9-88245e1b14ab")
 	)
-	(label "u5-23"
+	(label "D0"
 		(at 298.45 96.52 0)
 		(effects
 			(font
@@ -15679,7 +15884,7 @@
 		(uuid "1db7712f-313f-41e9-8eaf-7eb31bae7da0")
 	)
 	(label "rp10-3"
-		(at 81.28 114.3 270)
+		(at 107.95 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15749,7 +15954,7 @@
 		(uuid "2410b1bc-f2f5-469b-a2ce-dc590b9f3c12")
 	)
 	(label "pr11-3"
-		(at 110.49 114.3 270)
+		(at 137.16 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15759,7 +15964,7 @@
 		(uuid "2690676a-35c5-4a66-b76d-88275e7b7df2")
 	)
 	(label "rp8-2"
-		(at 132.08 114.3 270)
+		(at 158.75 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15979,7 +16184,7 @@
 		(uuid "372be7fb-504a-4fe2-be3d-593f2bd3d7d4")
 	)
 	(label "ra2-4"
-		(at 137.16 139.7 270)
+		(at 163.83 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16378,7 +16583,7 @@
 		)
 		(uuid "52d397e0-a25f-45b2-a138-400bb999dec5")
 	)
-	(label "VDD"
+	(label "VBAT"
 		(at 372.11 54.61 0)
 		(effects
 			(font
@@ -16628,7 +16833,7 @@
 		)
 		(uuid "64ad49de-234c-4956-aa3e-ce71a14a27e7")
 	)
-	(label "u5-21"
+	(label "D2"
 		(at 298.45 101.6 0)
 		(effects
 			(font
@@ -16718,7 +16923,7 @@
 		)
 		(uuid "68e5c020-37b8-4804-9beb-a16b4db85ae3")
 	)
-	(label "r17-1"
+	(label "~{IO}"
 		(at 59.69 110.49 90)
 		(effects
 			(font
@@ -16788,6 +16993,16 @@
 		)
 		(uuid "6d7de28e-b81c-4370-8da8-30508ab9b584")
 	)
+	(label "r61-2"
+		(at 87.63 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d96f75d-03b1-4a4e-85c2-9cafb6b7a622")
+	)
 	(label "u20-17"
 		(at 377.19 283.21 0)
 		(effects
@@ -16808,7 +17023,7 @@
 		)
 		(uuid "6e907107-0258-4ccf-ab6c-2445a51fd115")
 	)
-	(label "VDD"
+	(label "VBAT"
 		(at 106.68 82.55 180)
 		(effects
 			(font
@@ -16818,7 +17033,7 @@
 		)
 		(uuid "6f199017-51f4-404a-bd22-8990c1c371d9")
 	)
-	(label "u100-8"
+	(label "~{BUSY}"
 		(at 240.03 85.09 0)
 		(effects
 			(font
@@ -16839,7 +17054,7 @@
 		(uuid "6ffc71c9-1f86-4b18-ad9c-175e85dc9787")
 	)
 	(label "ra2-6"
-		(at 142.24 139.7 270)
+		(at 168.91 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16858,7 +17073,7 @@
 		)
 		(uuid "71be9dc9-237a-45a4-a803-2f109a0ed248")
 	)
-	(label "VDD"
+	(label "VBAT"
 		(at 372.11 64.77 0)
 		(effects
 			(font
@@ -16939,7 +17154,7 @@
 		(uuid "7f9b6b30-44d8-4f0d-afee-a0135c5c29e6")
 	)
 	(label "ra2-2"
-		(at 132.08 139.7 270)
+		(at 158.75 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17128,7 +17343,7 @@
 		)
 		(uuid "8bfe3188-271e-4a70-ba98-e93c60ff66f2")
 	)
-	(label "VDD"
+	(label "VBAT"
 		(at 448.31 166.37 90)
 		(effects
 			(font
@@ -17248,7 +17463,7 @@
 		)
 		(uuid "97b0fb61-1212-44cc-8f7f-541156f17d9c")
 	)
-	(label "u5-6"
+	(label "D14"
 		(at 278.13 66.04 180)
 		(effects
 			(font
@@ -17309,7 +17524,7 @@
 		(uuid "9cab283b-2548-41c3-99ad-0311ce29f006")
 	)
 	(label "ra2-9"
-		(at 149.86 139.7 270)
+		(at 176.53 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17409,7 +17624,7 @@
 		(uuid "a516c660-bfa1-4178-b111-671e49dd98cc")
 	)
 	(label "rp8-6"
-		(at 86.36 114.3 270)
+		(at 113.03 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17429,7 +17644,7 @@
 		(uuid "a6568256-3bee-4e07-9315-eecb5b5b4683")
 	)
 	(label "ra2-8"
-		(at 147.32 139.7 270)
+		(at 173.99 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17478,7 +17693,7 @@
 		)
 		(uuid "aab95fb9-b70d-4e52-9247-d806b7c61a18")
 	)
-	(label "u5-38"
+	(label "HLDA"
 		(at 298.45 58.42 0)
 		(effects
 			(font
@@ -17538,7 +17753,7 @@
 		)
 		(uuid "ae0182f9-16f8-4671-a1d2-f4993efce5dd")
 	)
-	(label "u5-16"
+	(label "D7"
 		(at 278.13 91.44 180)
 		(effects
 			(font
@@ -17719,7 +17934,7 @@
 		(uuid "bcc6ed44-d1e2-4645-a498-a93464c0317c")
 	)
 	(label "ra2-3"
-		(at 134.62 139.7 270)
+		(at 161.29 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17748,7 +17963,7 @@
 		)
 		(uuid "be49cfac-bfc0-42fb-a2df-cd08aadd6cf1")
 	)
-	(label "u5-37"
+	(label "u7-clk"
 		(at 298.45 60.96 0)
 		(effects
 			(font
@@ -17768,7 +17983,7 @@
 		)
 		(uuid "bf3f176f-fb4a-45c4-a487-647387a8cbec")
 	)
-	(label "u5-24"
+	(label "PEREQ"
 		(at 298.45 93.98 0)
 		(effects
 			(font
@@ -17988,7 +18203,7 @@
 		)
 		(uuid "cfb69534-e614-4bd1-b66f-6fb2957d8513")
 	)
-	(label "u5-17"
+	(label "D6"
 		(at 278.13 93.98 180)
 		(effects
 			(font
@@ -18059,7 +18274,7 @@
 		(uuid "d3c3acea-23c4-4fd4-ad67-73b426d26e1d")
 	)
 	(label "rp8-4"
-		(at 137.16 114.3 270)
+		(at 163.83 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18179,7 +18394,7 @@
 		(uuid "e0bf8c84-b8f5-4320-890b-37bcbe70a7f6")
 	)
 	(label "rp8-6"
-		(at 142.24 114.3 270)
+		(at 168.91 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18188,7 +18403,7 @@
 		)
 		(uuid "e227a334-2b5d-4904-921c-6eb9c8a0752d")
 	)
-	(label "u5-40"
+	(label "~{READY}"
 		(at 298.45 53.34 0)
 		(effects
 			(font
@@ -18239,7 +18454,7 @@
 		(uuid "e5cbe34d-96e0-4558-a685-60629a956a26")
 	)
 	(label "rp10-2"
-		(at 78.74 114.3 270)
+		(at 105.41 114.3 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18328,6 +18543,16 @@
 		)
 		(uuid "f0ab0b1d-470c-4d3d-8d9f-df6d1f54dd59")
 	)
+	(label "CAP"
+		(at 207.01 24.13 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0ae69de-7c65-4ba3-9beb-8c1c96b1843f")
+	)
 	(label "u8-66"
 		(at 143.51 330.2 0)
 		(effects
@@ -18339,7 +18564,7 @@
 		(uuid "f0d8677e-0543-4298-93b9-920117bb8e45")
 	)
 	(label "ra2-7"
-		(at 144.78 139.7 270)
+		(at 171.45 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18428,7 +18653,7 @@
 		)
 		(uuid "f5c34b08-ebfb-45a4-9d41-446cab4a3ff0")
 	)
-	(label "CLK"
+	(label "u7-clk"
 		(at 250.19 254 180)
 		(effects
 			(font
@@ -18914,7 +19139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network07")
-		(at 139.7 109.22 0)
+		(at 166.37 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18923,7 +19148,7 @@
 		(fields_autoplaced yes)
 		(uuid "143958aa-0770-4a5a-ab53-7c0c347ecfbc")
 		(property "Reference" "RP8"
-			(at 149.86 109.4739 0)
+			(at 176.53 109.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18932,7 +19157,7 @@
 			)
 		)
 		(property "Value" "R_Network07"
-			(at 149.86 110.7439 0)
+			(at 176.53 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18942,7 +19167,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 151.765 109.22 90)
+			(at 178.435 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18951,7 +19176,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 139.7 109.22 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18960,7 +19185,7 @@
 			)
 		)
 		(property "Description" "7 resistor network, star topology, bussed resistors, small symbol"
-			(at 139.7 109.22 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19249,7 +19474,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network04")
-		(at 83.82 109.22 0)
+		(at 110.49 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19258,7 +19483,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c9c70fb-b0bc-4da6-bc75-13d5a30f6321")
 		(property "Reference" "RP10"
-			(at 88.9 109.4739 0)
+			(at 115.57 109.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19267,7 +19492,7 @@
 			)
 		)
 		(property "Value" "R_Network04"
-			(at 88.9 110.7439 0)
+			(at 115.57 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19277,7 +19502,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 90.805 109.22 90)
+			(at 117.475 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19286,7 +19511,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 83.82 109.22 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19295,7 +19520,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-			(at 83.82 109.22 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19322,6 +19547,76 @@
 			(project "286"
 				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
 					(reference "RP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 87.63 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cea6638-13bd-4f0d-bcf4-b16020b24bdd")
+		(property "Reference" "R61"
+			(at 85.852 113.03 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 90.17 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6baa9583-4caa-4bfd-8d72-4eae414517b8")
+		)
+		(pin "2"
+			(uuid "a37abf20-316a-4f02-8fd9-5240d9421676")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -19398,6 +19693,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e224f6b-1590-4235-9786-365793e7c797")
+		(property "Reference" "R1"
+			(at 74.422 114.3 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 78.74 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91b5c078-7b44-4514-95d5-b595ac68e402")
+		)
+		(pin "2"
+			(uuid "3cbc8cf9-98ef-418f-a0c3-0892d8172f55")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_mine_d:MCS2301")
 		(at 119.38 299.72 0)
 		(unit 1)
@@ -19416,7 +19781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MCS3201FN"
 			(at 122.7933 290.83 0)
 			(effects
 				(font
@@ -21569,7 +21934,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network04")
-		(at 113.03 109.22 0)
+		(at 139.7 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21578,7 +21943,7 @@
 		(fields_autoplaced yes)
 		(uuid "48ccb3fe-f6eb-4501-8730-40fb6acac57f")
 		(property "Reference" "RP11"
-			(at 118.11 109.4739 0)
+			(at 144.78 109.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21587,7 +21952,7 @@
 			)
 		)
 		(property "Value" "R_Network04"
-			(at 118.11 110.7439 0)
+			(at 144.78 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21597,7 +21962,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP5"
-			(at 120.015 109.22 90)
+			(at 146.685 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21606,7 +21971,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 113.03 109.22 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21615,7 +21980,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
-			(at 113.03 109.22 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22080,6 +22445,76 @@
 			(project "286"
 				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57d604ee-6258-424b-9ca9-529a0fbe9f25")
+		(property "Reference" "R62"
+			(at 79.502 113.03 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 83.82 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e61768-42d6-4a52-9e91-a3e0e525b1ca")
+		)
+		(pin "2"
+			(uuid "9bf2a8c4-d32f-4b73-9bd3-8ba33df37a7e")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -24026,7 +24461,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Network08")
-		(at 142.24 134.62 0)
+		(at 168.91 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24035,7 +24470,7 @@
 		(fields_autoplaced yes)
 		(uuid "9940d5fa-e0fe-4cd3-8d64-5a6cb2162508")
 		(property "Reference" "RA2"
-			(at 152.4 134.8739 0)
+			(at 179.07 134.8739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24044,7 +24479,7 @@
 			)
 		)
 		(property "Value" "R_Network08"
-			(at 152.4 136.1439 0)
+			(at 179.07 136.1439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24054,7 +24489,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP9"
-			(at 154.305 134.62 90)
+			(at 180.975 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24063,7 +24498,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 142.24 134.62 0)
+			(at 168.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24072,7 +24507,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
-			(at 142.24 134.62 0)
+			(at 168.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24187,6 +24622,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 231.14 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b3e56cf-7048-4b09-a47d-e8db87bfe68c")
+		(property "Reference" "C25"
+			(at 233.68 20.9612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 233.68 22.8663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 231.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6c708d-0640-485f-adc4-c71e3c71d89a")
+		)
+		(pin "2"
+			(uuid "9c64a71c-73ba-4027-93c9-1136eb08da26")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:4069")
 		(at 447.04 91.44 0)
 		(unit 2)
@@ -24286,6 +24791,76 @@
 				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
 					(reference "U16")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c209e42-2a03-431f-9ef2-ac1fe810cc87")
+		(property "Reference" "C17"
+			(at 209.55 20.9612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 22.8663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 207.01 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b93626a-7fcc-45a7-ad1a-7a798b559cbe")
+		)
+		(pin "2"
+			(uuid "82d9ce34-3fe7-448f-a788-1be608a2b71f")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "C17")
+					(unit 1)
 				)
 			)
 		)
@@ -25722,6 +26297,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 30.48 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d045562f-c4b9-4d0b-908a-acd7bd0a8f0e")
+		(property "Reference" "C19"
+			(at 33.02 37.5538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 33.02 40.0938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 30.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 30.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "497c6810-5a18-46ad-b2de-365c8b86438c")
+		)
+		(pin "1"
+			(uuid "3fcfb8b8-5bc7-40aa-a190-c427deacd959")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:4069")
 		(at 447.04 106.68 0)
 		(unit 3)
@@ -25988,6 +26633,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7af7e36-b1ab-4dd7-b549-f00d3a3beed1")
+		(property "Reference" "C18"
+			(at 220.98 20.9612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 220.98 22.8663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 218.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d88eba3-a088-4956-9c87-165aa5f2d713")
+		)
+		(pin "2"
+			(uuid "ca2d82de-762f-47e4-a678-22a75142024c")
+		)
+		(instances
+			(project "286"
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2SC1815")
+		(at 30.48 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf59d96-9b81-452c-a374-fd8c5475be1a")
+		(property "Reference" "Q4"
+			(at 35.56 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC1815"
+			(at 35.56 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 35.56 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
+			(at 30.48 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
+			(at 30.48 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8deea769-897d-49d4-9d37-938d2b7c6303")
+		)
+		(pin "1"
+			(uuid "a77ffc50-5c66-44dd-b0a7-8c00f0a56037")
+		)
+		(pin "3"
+			(uuid "2fefcf9b-2a5c-4c52-9ce1-a0cf49a43228")
+		)
+		(instances
+			(project ""
+				(path "/3c2cef68-a593-4f8e-b628-4b9607bd8704"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 54.61 177.8 0)
 		(unit 1)
@@ -26180,7 +26971,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "80C287"
 			(at 288.29 50.8 0)
 			(effects
 				(font
