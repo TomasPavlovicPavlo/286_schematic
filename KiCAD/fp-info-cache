@@ -1,4 +1,4 @@
-25759292084807169
+25761041622907667
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102857,6 +102857,13 @@ Heatsink, 35mm x 13mm, 2x Fixation 2,5mm Drill, Soldering, Fischer SK104-STC-STI
 0
 2
 1
+_mine
+ISA_16bit
+
+
+0
+4
+4
 _mine
 JST_SH_SM20B-SRSS-TB_1x24-1MP_P1.00mm_Horizontal
 
