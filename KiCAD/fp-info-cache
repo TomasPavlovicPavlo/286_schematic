@@ -1,4 +1,4 @@
-25424656063115958
+25424657595876781
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101290,6 +101290,13 @@ _mine
 21
 21
 _mine
+286_DIN5
+
+
+0
+5
+5
+_mine
 286_bat
 
 
@@ -101814,13 +101821,6 @@ Trafo, Printtrafo, CHK, EI30, 2VA, 1x Sec,
 0
 5
 5
-_mine
-Untitled
-
-
-0
-0
-0
 _mine
 VQD30
 Afficheur 7 segments 10mm DIGIT
