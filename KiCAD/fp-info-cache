@@ -1,4 +1,4 @@
-25424657595876781
+25426408034623922
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101289,6 +101289,13 @@ _mine
 0
 21
 21
+_mine
+31A-5500
+14-lead through-hole mounted CERDIP, JEDEC MS-015-AB package, row spacing 7.62mm (300 mils), SideBrazed, https://www.jedec.org/system/files/docs/Ms-015a.pdf
+THT DIP DIL CERDIP ceramic 2.54mm 7.62mm 300mil SideBrazed
+0
+8
+8
 _mine
 286_DIN5
 
