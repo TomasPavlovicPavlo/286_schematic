@@ -1,56 +1,59 @@
-const int IN0 = 22;
-const int IN1 = 23;
-const int IN2 = 24;
-const int IN3 = 25;
-const int IN4 = 26;
-const int IN5 = 27;
-const int IN6 = 28;
-const int IN7 = 29;
-const int IN8 = 30;
-const int IN9 = 31;
+const int BA0 = 33;
+const int BA1 = 22;
+const int BA2 = 23;
+const int BA3 = 24;
+const int BA4 = 25;
+const int BA5 = 26;
+const int BA6 = 27;
+const int BA7 = 28;
+const int BA8 = 29;
+const int BA9 = 30;
+const int AEN = 31;
+const int JP14 = 34;
+const int IOR = 35;
 
-const int OUT0 = 32;
-const int OUT1 = 33;
-const int OUT2 = 34;
-const int OUT3 = 35;
-const int OUT4 = 36;
-const int OUT5 = 37;
-const int OUT6 = 38;
-const int OUT7 = 39;
+const int OUT4 = 32;
+const int OUT3 = 36;
+const int OUT2 = 37;
+const int OUT1 = 38;
+const int OUT0 = 39;
 
 
 void setup()
 {
-  pinMode(IN0, INPUT);
-  pinMode(IN1, INPUT);
-  pinMode(IN2, INPUT);
-  pinMode(IN3, INPUT);
-  pinMode(IN4, INPUT);
-  pinMode(IN5, INPUT);
-  pinMode(IN6, INPUT);
-  pinMode(IN7, INPUT);
-  pinMode(IN8, INPUT);
-  pinMode(IN9, INPUT);
+  pinMode(BA0, OUTPUT);
+  pinMode(BA1, OUTPUT);
+  pinMode(BA2, OUTPUT);
+  pinMode(BA3, OUTPUT);
+  pinMode(BA4, OUTPUT);
+  pinMode(BA5, OUTPUT);
+  pinMode(BA6, OUTPUT);
+  pinMode(BA7, OUTPUT);
+  pinMode(BA8, OUTPUT);
+  pinMode(BA9, OUTPUT);
+  pinMode(AEN, OUTPUT);
+  pinMode(JP14, OUTPUT);
+  pinMode(IOR, OUTPUT);
 
-  pinMode(OUT0, OUTPUT);
-  pinMode(OUT1, OUTPUT);
-  pinMode(OUT2, OUTPUT);
-  pinMode(OUT3, OUTPUT);
-  pinMode(OUT4, OUTPUT);
-  pinMode(OUT5, OUTPUT);
-  pinMode(OUT6, OUTPUT);
-  pinMode(OUT7, OUTPUT);
+  pinMode(OUT0, INPUT);
+  pinMode(OUT1, INPUT);
+  pinMode(OUT2, INPUT);
+  pinMode(OUT3, INPUT);
+  pinMode(OUT4, INPUT);
 
-  digitalWrite(IN0, LOW);
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, LOW);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, LOW);
-  digitalWrite(IN5, LOW);
-  digitalWrite(IN6, LOW);
-  digitalWrite(IN7, LOW);
-  digitalWrite(IN8, LOW);
-  digitalWrite(IN9, LOW);
+  digitalWrite(BA0, LOW);
+  digitalWrite(BA1, LOW);
+  digitalWrite(BA2, LOW);
+  digitalWrite(BA3, LOW);
+  digitalWrite(BA4, LOW);
+  digitalWrite(BA5, LOW);
+  digitalWrite(BA6, LOW);
+  digitalWrite(BA7, LOW);
+  digitalWrite(BA8, LOW);
+  digitalWrite(BA9, LOW);
+  digitalWrite(AEN, LOW);
+  digitalWrite(JP14, HIGH);
+  digitalWrite(IOR, LOW);
 
 
 
@@ -58,46 +61,52 @@ void setup()
   delay(3000);
   Serial.println("PAL16L8 decoder v0.0.0");
 
+
+  for(int i=0; i<=0x3FF; i++) {
+    write_address(i);
+    Serial.println("0x" + String(i,HEX) + ": " + String(digitalRead(OUT0)) + ", " + String(digitalRead(OUT1)) + ", " + String(digitalRead(OUT2)) + ", " + String(digitalRead(OUT3)) + ", " + String(digitalRead(OUT4)));
+  }
+
+
+
 }
 
 void loop()
 {
-  for(int i=0; i<10; i++) {
-    write_input(1<<i);
-    delay(1000);
-  }
 }
 
-void write_input(int input) {
+void write_address(int input) {
 
-  if(input & 0x001) digitalWrite(IN0, HIGH);
-  else  digitalWrite(IN0, LOW);
+  if(input & 0x001) digitalWrite(BA0, HIGH);
+  else  digitalWrite(BA0, LOW);
 
-  if(input & 0x002) digitalWrite(IN1, HIGH);
-  else  digitalWrite(IN1, LOW);
+  if(input & 0x002) digitalWrite(BA1, HIGH);
+  else  digitalWrite(BA1, LOW);
 
-  if(input & 0x004) digitalWrite(IN2, HIGH);
-  else  digitalWrite(IN2, LOW);
+  if(input & 0x004) digitalWrite(BA2, HIGH);
+  else  digitalWrite(BA2, LOW);
 
-  if(input & 0x008) digitalWrite(IN3, HIGH);
-  else  digitalWrite(IN3, LOW);
+  if(input & 0x008) digitalWrite(BA3, HIGH);
+  else  digitalWrite(BA3, LOW);
 
-  if(input & 0x010) digitalWrite(IN4, HIGH);
-  else  digitalWrite(IN4, LOW);
+  if(input & 0x010) digitalWrite(BA4, HIGH);
+  else  digitalWrite(BA4, LOW);
 
-  if(input & 0x020) digitalWrite(IN5, HIGH);
-  else  digitalWrite(IN5, LOW);
+  if(input & 0x020) digitalWrite(BA5, HIGH);
+  else  digitalWrite(BA5, LOW);
 
-  if(input & 0x040) digitalWrite(IN6, HIGH);
-  else  digitalWrite(IN6, LOW);
+  if(input & 0x040) digitalWrite(BA6, HIGH);
+  else  digitalWrite(BA6, LOW);
 
-  if(input & 0x080) digitalWrite(IN7, HIGH);
-  else  digitalWrite(IN7, LOW);
+  if(input & 0x080) digitalWrite(BA7, HIGH);
+  else  digitalWrite(BA7, LOW);
 
-  if(input & 0x100) digitalWrite(IN8, HIGH);
-  else  digitalWrite(IN8, LOW);
+  if(input & 0x100) digitalWrite(BA8, HIGH);
+  else  digitalWrite(BA8, LOW);
 
-  if(input & 0x200) digitalWrite(IN9, HIGH);
-  else  digitalWrite(IN9, LOW);
+  if(input & 0x200) digitalWrite(BA9, HIGH);
+  else  digitalWrite(BA9, LOW);
 
 }
+
+
