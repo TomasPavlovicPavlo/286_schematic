@@ -615,7 +615,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -651,8 +651,24 @@
       "Root"
     ],
     [
+      "45061eb9-ff12-4fc7-8e88-fa4a10976667",
+      "CPU_ChipSet1"
+    ],
+    [
+      "fe1d3a30-ec64-4464-8b2f-8574f5a08e12",
+      "ChipSet2"
+    ],
+    [
       "107f076b-2d45-4df0-bc8b-da9e1622b8e2",
       "Memory"
+    ],
+    [
+      "d8a002e5-ee62-407e-b9b1-194d08f64439",
+      "ISA"
+    ],
+    [
+      "53026442-6fd5-4272-a80f-ad3de20dc7df",
+      "FLOPPY_IDE"
     ]
   ],
   "text_variables": {}
