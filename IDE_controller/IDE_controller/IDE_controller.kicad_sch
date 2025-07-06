@@ -11546,6 +11546,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 223.52) (xy 254 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fb69dc-8944-42ac-a415-216983853556")
+	)
+	(wire
+		(pts
 			(xy 393.7 233.68) (xy 382.27 233.68)
 		)
 		(stroke
@@ -15665,12 +15675,12 @@
 		(uuid "b386a256-77ce-4488-b158-4394efbe16f9")
 	)
 	(label "IO_READY"
-		(at 254 223.52 0)
+		(at 264.16 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b3ff0876-653e-4d26-a949-c35a7a5d5253")
 	)
