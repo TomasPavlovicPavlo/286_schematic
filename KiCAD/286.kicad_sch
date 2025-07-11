@@ -10,6 +10,9 @@
 		(rev "0.0.0")
 	)
 	(lib_symbols)
+	(bus_alias "ISA"
+		(members "ISA.~{IOR}" "ISA.~{IOW}")
+	)
 	(circle
 		(center 105.41 60.96)
 		(radius 0.381)
@@ -406,6 +409,24 @@
 		)
 		(uuid "f036d019-a069-4e9e-b4f0-5714c62a83fb")
 	)
+	(bus_entry
+		(at 337.82 24.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6674f79-d28f-48a3-b180-0261d6f9cf3a")
+	)
+	(bus_entry
+		(at 320.04 24.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd711d8b-0f74-42b5-9749-605019278c93")
+	)
 	(polyline
 		(pts
 			(xy 194.31 83.82) (xy 193.04 85.09)
@@ -486,6 +507,16 @@
 		)
 		(uuid "2ee18e79-3bb9-4c8a-933a-e00ff0f8bae3")
 	)
+	(wire
+		(pts
+			(xy 335.28 26.67) (xy 335.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a5c08b-ad32-44ae-8c10-38595195697a")
+	)
 	(polyline
 		(pts
 			(xy 161.29 78.74) (xy 160.02 80.01)
@@ -535,6 +566,16 @@
 			(type default)
 		)
 		(uuid "487b50f6-1cd7-4231-a380-022d3c33b023")
+	)
+	(bus
+		(pts
+			(xy 294.64 24.13) (xy 320.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5253616d-0048-4257-a8f1-03c86fd4a385")
 	)
 	(polyline
 		(pts
@@ -606,6 +647,16 @@
 		)
 		(uuid "69d3cb58-b085-4d27-80ec-d962db538be9")
 	)
+	(bus
+		(pts
+			(xy 229.87 152.4) (xy 238.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b689f65-9cf3-4527-88d7-98227a0643d7")
+	)
 	(polyline
 		(pts
 			(xy 194.31 73.66) (xy 193.04 74.93)
@@ -616,6 +667,16 @@
 		)
 		(uuid "7e0fa0f7-842a-4634-a0ec-4cb3c82bbcfa")
 	)
+	(bus
+		(pts
+			(xy 226.06 21.59) (xy 234.95 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebf22c0-764d-48c5-a219-18eebecf83a2")
+	)
 	(polyline
 		(pts
 			(xy 176.53 72.39) (xy 177.8 73.66)
@@ -625,6 +686,16 @@
 			(type default)
 		)
 		(uuid "82bd3fa7-a712-4a29-80a4-9b5af941e284")
+	)
+	(bus
+		(pts
+			(xy 320.04 24.13) (xy 337.82 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ff2dea-7337-41a1-b594-1e7984b2afbf")
 	)
 	(polyline
 		(pts
@@ -675,6 +746,26 @@
 			(type default)
 		)
 		(uuid "95afff51-e225-4d8b-aa90-7791a01e2b19")
+	)
+	(bus
+		(pts
+			(xy 337.82 24.13) (xy 347.98 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8c7d65-f65d-4b92-9a97-28d38cb1d60f")
+	)
+	(wire
+		(pts
+			(xy 317.5 26.67) (xy 317.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc39fed-efdd-41aa-b1a5-7ce668de6251")
 	)
 	(polyline
 		(pts
@@ -865,6 +956,78 @@
 			(type default)
 		)
 		(uuid "fc8841e5-e431-4b0f-86bc-20a6d3431d77")
+	)
+	(label "{ISA}"
+		(at 304.8 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13e83001-b0d5-4655-93b3-b9efb80a73a5")
+	)
+	(label "{ISA}"
+		(at 231.14 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19a05307-ca73-48d0-b228-d7e424cf7c2c")
+	)
+	(label "ISA.~{IOW}"
+		(at 335.28 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71c6e5aa-fd31-4543-b43d-9dc10ce52373")
+	)
+	(label "{ISA}"
+		(at 227.33 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9dda334-466d-4da7-b567-d0bc45e44235")
+	)
+	(label "ISA.~{IOR}"
+		(at 317.5 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8a4d039-1b6b-4c61-b4a4-eb640c58cfce")
+	)
+	(hierarchical_label "ISA"
+		(shape bidirectional)
+		(at 234.95 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c102b9ef-4776-4c16-8606-b2719a629019")
+	)
+	(hierarchical_label "ISA"
+		(shape bidirectional)
+		(at 238.76 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f990b183-4a2b-4244-abd2-40c148a6f32f")
 	)
 	(sheet
 		(at 237.49 92.71)
