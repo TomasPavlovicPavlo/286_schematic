@@ -19190,6 +19190,16 @@
 		)
 		(uuid "0c2ec924-920d-4867-ba42-2bc5f0ac0bb1")
 	)
+	(text "(7.14MHz)"
+		(exclude_from_sim no)
+		(at 263.652 199.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17c1179d-4deb-49b2-90a3-0c109c8b32a6")
+	)
 	(text "NPU speed select low (12MHz CPU) JP19 & JP20 pins 1 & 2 closed\nNPU speed select high (16/20MHz CPU) JP19 & JP20 pins 2 & 3 closed"
 		(exclude_from_sim no)
 		(at -52.832 91.186 0)
@@ -19199,6 +19209,16 @@
 			)
 		)
 		(uuid "3384ef51-e3a6-4ab4-9195-fd0a68bf5d47")
+	)
+	(text "(14.3MHz)"
+		(exclude_from_sim no)
+		(at 163.576 200.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81eccae8-6d5b-44dd-aee7-9105c62bec4b")
 	)
 	(text "Monitor type select color SW1/1 On\nMonitor type select monochrome SW1/1 Off\nParity enabled SW1/2 On\nParity disabled SW1/2 Off"
 		(exclude_from_sim no)
@@ -19210,6 +19230,16 @@
 			(justify left)
 		)
 		(uuid "d1ad3328-a223-4135-af86-ef9d09c4f372")
+	)
+	(text "(7.14MHz)"
+		(exclude_from_sim no)
+		(at 160.274 183.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb64f201-3879-48c9-922a-dc40230756f4")
 	)
 	(junction
 		(at 29.21 166.37)
@@ -32757,7 +32787,7 @@
 		)
 	)
 	(global_label "KBINT"
-		(shape input)
+		(shape output)
 		(at 421.64 383.54 0)
 		(fields_autoplaced yes)
 		(effects

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.4,
-          "width": 1.4
+          "drill": 0.0,
+          "height": 7.62,
+          "width": 1.78
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -62,7 +62,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -612,6 +612,10 @@
     [
       "6e028d11-b6fc-43a0-b2c2-0df2e68c4064",
       "Root"
+    ],
+    [
+      "381cace6-d53c-4dcf-83d1-4966f587fa7b",
+      "Serial"
     ]
   ],
   "text_variables": {}
