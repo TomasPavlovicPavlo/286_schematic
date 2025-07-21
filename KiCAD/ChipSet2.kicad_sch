@@ -11771,6 +11771,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 109.22) (xy 323.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bd95e8-e731-4eb4-a00e-e1240cb32a72")
+	)
+	(wire
+		(pts
 			(xy 157.48 139.7) (xy 179.07 139.7)
 		)
 		(stroke
@@ -13499,16 +13509,6 @@
 		)
 		(uuid "978e362f-3ed7-4b6b-b0c3-fa229fd691e4")
 	)
-	(label "~{RTCCE}"
-		(at 323.85 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a175b37-918e-4449-9594-12dba4c34ca7")
-	)
 	(label "+5V"
 		(at 101.6 27.94 90)
 		(effects
@@ -14848,6 +14848,27 @@
 		(uuid "66ae0921-6590-41b0-b174-d2e6b0451ee1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.5865 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "~{RTCCE}"
+		(shape input)
+		(at 331.47 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6776c224-4358-4e9d-9733-d496a767cd18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.3818 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17713,7 +17734,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768kHz"
 			(at 243.84 78.74 0)
 			(effects
 				(font
